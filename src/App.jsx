@@ -44,6 +44,10 @@ function App() {
       path: "/register",
       element: <RegisterScreen />
     },
+    {
+      path: "/",
+      element: <RegisterScreen />
+    },
   ]);
 
   return (
